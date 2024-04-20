@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB-115 Final Project</title>
+    <link rel="stylesheet" href="styles4.css">
+</head>
+<body>
+    <div id="banner">
+        <img src="banner2.png" alt="Perfectly Portioned Fitness Banner">
+    </div>
+    <form id="mealPlanForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" required><br><br>
+        <label for="goal">Goal for the Week:</label>
+        <input type="text" id="goal" required><br><br>
+
+        <!-- Input fields for each day's meal -->
+        <label for="sunday">Sunday:</label>
+        Breakfast: <input type="text" id="sundayBreakfast"><br>
+        First Snack: <input type="text" id="sundayFirstSnack"><br>
+        Lunch: <input type="text" id="sundayLunch"><br>
+        Second Snack: <input type="text" id="sundaySecondSnack"><br>
+        Dinner: <input type="text" id="sundayDinner"><br><br>
+        
+
+        <label for="monday">Monday:</label>
+        Breakfast: <input type="text" id="mondayBreakfast"><br>
+        First Snack: <input type="text" id="mondayFirstSnack"><br>
+        Lunch: <input type="text" id="mondayLunch"><br>
+        Second Snack: <input type="text" id="mondaySecondSnack"><br>
+        Dinner: <input type="text" id="mondayDinner"><br><br>
+
+        <label for="tuesday">Tuesday:</label>
+        Breakfast: <input type="text" id="tuesdayBreakfast"><br>
+        First Snack: <input type="text" id="tuesdayFirstSnack"><br>
+        Lunch: <input type="text" id="tuesdayLunch"><br>
+        Second Snack: <input type="text" id="tuesdaySecondSnack"><br>
+        Dinner: <input type="text" id="tuesdayDinner"><br><br>
+
+        <label for="wednesday">Wednesday:</label>
+        Breakfast: <input type="text" id="wednesdayBreakfast"><br>
+        First Snack: <input type="text" id="wednesdayFirstSnack"><br>
+        Lunch: <input type="text" id="wednesdayLunch"><br>
+        Second Snack: <input type="text" id="wednesdaySecondSnack"><br>
+        Dinner: <input type="text" id="wednesdayDinner"><br><br>
+
+        <label for="thursday">Thursday:</label>
+        Breakfast: <input type="text" id="thursdayBreakfast"><br>
+        First Snack: <input type="text" id="thursdayFirstSnack"><br>
+        Lunch: <input type="text" id="thursdayLunch"><br>
+        Second Snack: <input type="text" id="thursdaySecondSnack"><br>
+        Dinner: <input type="text" id="thursdayDinner"><br><br>
+
+        <label for="friday">Friday:</label>
+        Breakfast: <input type="text" id="fridayBreakfast"><br>
+        First Snack: <input type="text" id="fridayFirstSnack"><br>
+        Lunch: <input type="text" id="fridayLunch"><br>
+        Second Snack: <input type="text" id="fridaySecondSnack"><br>
+        Dinner: <input type="text" id="fridayDinner"><br><br>
+
+        <label for="saturday">Saturday:</label>
+        Breakfast: <input type="text" id="saturdayBreakfast"><br>
+        First Snack: <input type="text" id="saturdayFirstSnack"><br>
+        Lunch: <input type="text" id="saturdayLunch"><br>
+        Second Snack: <input type="text" id="saturdaySecondSnack"><br>
+        Dinner: <input type="text" id="saturdayDinner"><br><br>
+
+        <button type="button" onclick="generateMealPlan()">Generate Meal Plan</button>
+        <button type="button" onclick="clearPlanner()">Clear Planner</button>
+    </form>
+
+    <script src="ProjectJS.js"></script>
+</body>
+</html>
